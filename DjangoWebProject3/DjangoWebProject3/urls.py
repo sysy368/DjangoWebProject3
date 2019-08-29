@@ -21,10 +21,10 @@ Including another URLconf
 #from django.urls import path
 
 from django.conf.urls import include, url
-import HelloDjangoApp.views
+import MyApp1.views
 
 # Django processes URL patterns in the order they appear in the array
 urlpatterns = [
-    url(r'^$', HelloDjangoApp.views.index, name='index'),
-    url(r'^home$', HelloDjangoApp.views.index, name='home'),
+    url(r'^$', MyApp1.views.index, name='index'),
+    url(r'^home$', MyApp1.views.index, name='home'),
 ]
