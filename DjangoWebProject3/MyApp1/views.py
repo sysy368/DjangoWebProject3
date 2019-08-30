@@ -23,6 +23,6 @@ def about(request):
         "MyApp1/about.html",
         {
             'title' : "About HelloDjangoApp",
-            'content' : "Example app page for Django."
+            'content' : "aExample app page for Django."
         }
     )
